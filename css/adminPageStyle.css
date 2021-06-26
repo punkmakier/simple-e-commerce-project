@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(240, 240, 240, 0.637) !important;
+}
+
+.wrapper{
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.sidebar{
+    width: 300px;
+    height: 100%;
+    position: relative;
+    background-color: rgb(36, 36, 36);
+    float: left;
+    color: #FFF;
+    text-align: center;
+
+}
+.sidebar .image-name{
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background-color: aqua;
+    background-image:linear-gradient(rgba(20,20,20, 0.69),rgba(20,20,20, 0.69)), url('../images/bg-business.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sidebar .image-name img{
+    width: 130px;
+    height: 130px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.content-sidebar{
+    color: #000;
+    width: 1219px;
+    height: 100%;
+    position: relative;
+    float: right;
+}
+
+
+.sidebar-items{
+
+    text-align: start;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+
+
+}
+
+.sidebar-items button{
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: rgb(156, 156, 156);
+    text-align: start;
+    border-bottom: 1px solid rgb(97, 97, 97);
+    border-top: 1px solid rgb(49, 49, 49);
+    font-weight: 100;
+}
+
+.sidebar-items button:hover{
+    color: #FFF;
+    background-color: rgb(117, 117, 117);
+}
+.sidebar-items button i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-sidebar strong{
+    color: #FFF;
+}
+.content-sidebar span{
+    color: #000;
+    font-weight: 700;
+}
+
+.reportCard{
+    width: 330px;
+    height: 150px;
+    position: relative;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background: rgb(125,18,255);
+    background: linear-gradient(90deg, rgba(125,18,255,0.6617997540813201) 0%, rgba(225,31,31,0.7794468129048494) 100%);
+}
+.reportCard:hover{
+    transition: 0.3s;
+    box-shadow: -5px 10px 10px #000;
+}
+.reportCard i{
+    position: absolute;
+    left: 0;
+    margin-left: 25px;
+    margin-top: 3px;
+    font-size: 35px;
+}
+.totalMembers{
+    background: rgb(68,84,220);
+    background: linear-gradient(90deg, rgba(68,84,220,0.7374300061821604) 0%, rgba(31,225,213,0.7794468129048494) 100%);
+}
+
+.allProduct{
+    background: rgb(220,164,68);
+    background: linear-gradient(90deg, rgba(220,164,68,0.846673703661152) 0%, rgba(225,31,208,0.7794468129048494) 100%);
+}
+
+.pedingCount{
+    background: #C04848;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    
+    
+}
+
+
+.customerReportCard{
+    width: 270px;
+    height: 150px;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: blue;
+}
+.customerReportCard:hover{
+    transition: 0.3s;
+    box-shadow: 0 10px 10px #000;
+}
+
+.pendingOrder{
+    background: rgb(34,175,195);
+    background: linear-gradient(0deg, rgba(34,175,195,1) 0%, rgba(45,84,253,1) 100%);
+}
+.completeOrder{
+    background: rgb(34,175,195);
+    background: linear-gradient(0deg, rgba(34,175,195,1) 0%, rgba(45,253,79,0.8718837876947654) 100%);
+}
+.cancelOrder{
+    background: rgb(71,34,195);
+background: linear-gradient(0deg, rgba(71,34,195,1) 0%, rgba(253,45,45,0.8718837876947654) 100%);
+}
+.deniedOrder{
+    background: rgb(195,34,178);
+background: linear-gradient(0deg, rgba(195,34,178,1) 0%, rgba(253,45,45,1) 100%);
+}
+@media (max-width: 870px){
+    .sidebar{
+      display: inline;
+      max-width: 150%;
+      float: none;
+
+
+    }
+    .content-sidebar{
+        display: block;
+        float: none;
+        width: 400px;
+    }
+
+    .reportCard{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .customerReportCard{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+  }

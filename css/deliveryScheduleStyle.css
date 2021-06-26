@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: rgba(196, 196, 196, 0.479);
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    padding: 0 60px;
+    position: relative;
+}
+
+.custom_btn{
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #FFF;
+    border-radius: 3px;
+    margin-top: 50px;
+   
+}
+
+button:hover{
+    outline: none;
+}
+.wrapper button i{
+    margin-right: 10px;
+}
+.schedule{
+    width: 1200px;
+    height: auto;
+    transform: translate(10%, 20%);
+    margin-top: 60px;
+}
+
+table{
+    text-align: center;
+}

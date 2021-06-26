@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    background-color: #f7f7f7;
+    
+}
+header{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    margin-top: 8px;
+    border-right: 1px solid #c1c1c1;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    font-weight: 900;
+    color: #ff3b49;
+}
+
+
+.custom-btn{
+    background-color: #ff3b49;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.custom-btn:hover{
+    box-shadow: 0 0 7px #fc636e;
+    color: #FFF;
+}
+.imgLOGO img{
+    margin-top: 15px;
+    width: 20rem;
+}
+
+.custom-card{
+    width: 320px;
+    height: 250px;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-card img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    transition: 0.6s ease-in-out;
+}
+.custom-card:hover img{
+    transform: scale(1.2);
+    background-color: rgba(20,20,20,0.69);
+}
+.custom-card .content-sale{
+    position: absolute;
+    z-index: 10;
+    color: #FFF;
+    padding: 0 20px;
+    top: 35%;
+}
+.custom-card .content-sale p{
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 14px;
+    text-shadow: 0 0 3px #000;
+}
+.custom-card .tag-sold{
+    width: 110px;
+    position: absolute;
+    float: right;
+    z-index: 10;
+    color: #000;
+    background-color: yellow;
+    left: 75%;
+    padding: 3px 5px;
+}
+.custom-card .tag-sold span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.custom-card .heading{
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 0 0 10px #000;
+}
+
+.custom-card .top-price{
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 20px;
+    text-shadow: 0 0 10px #000;
+}
+
+.top-sales{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.top-sales h1{
+    width: 200px;
+    display: inline;
+    padding: 0;
+}
+.top-sales img{
+    width: 30px;
+    display: inline;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.tab-content .tab-pane .custom_perfume_panel{
+    background-color: blue;
+    width: 100%;
+    height: 30vh;
+
+}
+
+
+
+
+.carousel .carousel-inner .carousel-item a{
+    color: #Fff;
+    background-color: #ff3b49;
+    border: none;
+    padding: 6px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+.carousel .carousel-inner .carousel-item a:hover{
+    background-color: #fd434f;
+    box-shadow: 0 0 2px #ff3b49;
+}
+
+/* MY CUSTOM CSS HERE */
+
+.top-sales .form-inline button{
+    color: #ff3b49;
+    background: none;
+    border: 1px solid #ff3b49;
+}
+.top-sales .form-inline button:hover{
+    background: #ff3b49;
+    color: #fff;
+}
+
+.perfume-card{
+    position: relative;
+    width: 285px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 35px;
+    -webkit-box-shadow: 6px 7px 6px -1px rgba(0,0,0,0.36);
+    -moz-box-shadow: 6px 7px 6px -1px rgba(0,0,0,0.36);
+    box-shadow: 6px 7px 6px -1px rgba(0,0,0,0.36);
+}
+.form-control:focus {
+    border-color: #ff3b49;
+    box-shadow: 0 0 0 0.2rem rgba(247, 38, 38, 0.25);
+} 
+
+.perfume-card .card{
+    position: absolute !important;
+
+    
+}
+
+.perfume-card:hover{
+    box-shadow: 0 0 15px rgba(160, 160, 160, 0.61);
+    transition: 0.6s;
+    
+}
+.perfume-card span{
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    background-color: #ff3b49;
+    padding: 2px 5px;
+    right: 0;
+    margin: 5px 5px;
+}
+.perfume-card button.btnCstm{
+    position: absolute; 
+    bottom:0;
+    margin-bottom: 20px;
+    background: #ff9ba14d;
+    color: #ff3b49;
+    padding: 6px 1px; 
+    border: 1px solid #fd434f;
+    width: 150px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    outline: #ff3b49;
+    border-radius: 3px;
+    letter-spacing: 2px;
+
+}
+.perfume-card button.btnCstm:focus{
+    border-color: #ff3b49;
+    box-shadow: 0 0 0 0.2rem rgba(247, 38, 38, 0.25);
+}
+.perfume-card button i{
+    color: #ff3b49;
+}
+.perfume-card button.btnCstm:hover{
+    transition: 0.3s;
+    background-color: #ff3b483a;
+}
+
+
+
+
+.mt-3, .my-3{
+    display: inline;
+}
+
+
+.custom-BGredpink{
+    background-color: #ff3b49 !important;
+    padding: 20px 0;
+}
+.custom-BGredpink .custom-inner-Deliveryschedule{
+    color: #FFF;
+    text-align: center;
+}
+.custom-BGredpink .custom-inner-Deliveryschedule h4{
+    text-align: start;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #000;
+}
+.cstm-search{
+    float: right;
+}
+
+.main-combo{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+
+.main-combo .content{
+    padding: 0 100px;
+    width: 100%;
+    height: 70%;
+    position: relative;
+    z-index: 999;
+
+
+}
+.main-combo .aboutUs{
+    text-align: end;
+    color: #000;
+    position: relative;
+    margin-top: 200px;
+    margin-right: 10px;
+}
+.main-combo .aboutUs p{
+    margin-bottom: 0;
+}
+
+.main-combo .hidden-items{
+    display: none;
+    padding: 5px 10px;
+}
+.dropdown-item:hover{
+    color: #ff3b49;
+    background-color: transparent;
+}
+
+
+.contact{
+    margin-top: 90px;
+    border-radius: 5px;
+    text-align: start;
+    background-color: #fff;
+    padding: 10px 40px;
+    box-shadow: 0 0 5px #000;
+    max-width: 500px;
+    min-height: 350px;
+}
+.contact h5{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.main-combo .content .contact .inner-contact{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+
+
+}
+.main-combo .content .contact .inner-contact img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+.main-combo .hidden-items .hidden-aboutus{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.main-combo .hidden-items .hidden-contacts{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.main-combo .hidden-items .hidden-contacts h5{
+    margin-bottom: 30px;
+}
+.main-combo .hidden-items .hidden-contacts img{
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+
+
+.rd-btn{
+    position: fixed;
+    z-index: 999;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    transition: 0.2s;
+  
+}
+.rd-btn i{
+    color: #ff3b49;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.rd-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(155, 155, 155, 0.637);
+}
+
+
+
+
+.footer{
+    background-color: rgb(59, 59, 59) !important;
+    color: #fff;
+    text-align: start;
+    padding: 20px 20px;
+    width: 100%;
+}
+
+.footer p{
+    width: 500px;
+    text-align: justify;
+}
+
+.contactAdmin{
+    float: right;
+    text-align: end;
+    margin-right: 60px;
+    margin-top: 80px;
+}
+
+
+
+@media (max-width: 870px){
+    .custom-card{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .perfume-card{
+        margin:  auto;
+        margin-bottom: 30px;
+    }
+
+    .main-combo .content{
+        display: none;
+    }
+    .main-combo .hidden-items{
+        display: block;
+    }
+
+    .cstm-search{
+        float: left;
+    }
+  
+    .cstm-nav{
+        background-color: rgb(126, 126, 126) !important;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: #fff;
+    }
+    .navbar-light .navbar-nav button{
+        margin-top: 10px;
+    }
+    .custom-BGredpink .custom-inner-Deliveryschedule h4{
+        text-align: center;
+    }
+    #buyNow{
+        text-align: center;
+    }
+    .card-body{
+        text-align: left;
+    }
+
+  
+    .footer{
+        text-align: center;
+    }
+    .contactAdmin{
+        display: none;
+    }
+    .footer p{
+        text-align: center;
+        width: 100%;
+    }
+}
+

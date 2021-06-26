@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.perfume-card{
+    position: relative;
+    width: 289px;
+    height: 370px;
+    overflow: hidden;
+    border-radius: 3px;
+    display: inline-block;
+    -webkit-box-shadow: 6px 7px 6px -1px rgba(0,0,0,0.36);
+    -moz-box-shadow: 6px 7px 6px -1px rgba(0,0,0,0.36);
+    box-shadow: 6px 7px 6px -1px rgba(0,0,0,0.36);
+ 
+}
+.perfume-card .card{
+    position: absolute !important;
+
+    
+}
+
+.perfume-card:hover{
+    -webkit-box-shadow: -1px 6px 6px 3px rgba(0,0,0,0.59);
+    -moz-box-shadow: -1px 6px 6px 3px rgba(0,0,0,0.59);
+    box-shadow: -1px 6px 6px 3px rgba(0,0,0,0.59);
+    transition: 0.6s;
+    
+}
+.perfume-card span{
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    background-color: #ff3b49;
+    padding: 2px 5px;
+    right: 0;
+    margin: 5px 5px;
+}
+.perfume-card button.btnCstm{
+    position: absolute; 
+    bottom:0;
+    margin-bottom: 15px;
+    background: #ff9ba14d;
+    color: #ff3b49;
+    padding: 6px 1px; 
+    border: 1px solid #fd434f;
+    width: 150px;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 14px;
+    outline: #ff3b49;
+    border-radius: 3px;
+}
+.perfume-card button.btnCstm:focus{
+    border-color: #ff3b49;
+    box-shadow: 0 0 0 0.2rem rgba(247, 38, 38, 0.25);
+}
+.perfume-card button i{
+    color: #ff3b49;
+}
+
+.perfume-card button.btnCstm:hover{
+    transition: 0.3s;
+    background-color: #ff3b483a;
+}
+
+
+
+.mainBody{
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    min-height: 80vh;
+    padding: 0 60px;
+}
+ h1{
+    padding: 10px;
+}
+.mt-3, .my-3{
+    display: inline;
+}
+
+.imgLOGO img{
+    margin-top: 15px;
+    width: 20rem;
+}
+
+footer{
+    background-color: rgb(59, 59, 59) !important;
+    color: #fff;
+    text-align: start;
+    padding: 20px 20px;
+    width: 100%;
+}
+footer p{
+    width: 500px;
+    text-align: justify;
+}
+.contact{
+    float: right;
+    margin-top: 30px;
+    text-align: end;
+    margin-right: 60px;
+}
+
+.perfume-card .card{
+    text-align: start;
+}
+@media (max-width: 870px){
+    .cstmContainer{
+        text-align: center;
+    }
+
+    footer{
+        text-align: center;
+    }
+    .contact{
+        display: none;
+    }
+    footer p{
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .perfume-card button.btnCstm{
+        left: 0;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .card-title{
+        text-align: start;
+    }
+}

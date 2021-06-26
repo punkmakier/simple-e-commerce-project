@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: linear-gradient(rgba(20,20,20, 0.69),rgba(20,20,20, 0.69)), url(../images/bg-business.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.outer-form{
+    width: 600px;
+    height: auto;
+    background-color: rgb(223, 223, 223);
+    position: absolute;
+    padding: 30px 40px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(146, 146, 146);
+
+}
+
+.uploadImage{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #000;
+}

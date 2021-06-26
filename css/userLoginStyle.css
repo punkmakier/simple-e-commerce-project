@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ff3b49;
+}
+.imgLOGO{
+    width: 500px;
+
+}
+.imgLOGO img{
+    margin-top: 15px;
+    width: 20rem;
+}
+.mainBody{
+    background-image: linear-gradient(rgba(20,20,20, 0.69),rgba(20,20,20, 0.69)), url(../images/bg-business.jpg);
+    width: 100%;
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.userForms{
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px #000;
+    border-radius: 5px;
+    padding: 20px 25px;
+
+}
+.userForms h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.userForms .outerInput{
+    margin-top: 70px;
+}
+.userInput input{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid rgba(160, 160, 160, 0.589);
+    padding: 7px 10px;
+
+}
+.userInput input:focus{
+    box-shadow: 0 0 2px #f54f5a;
+    outline: none;
+    border: 1px solid #ff3b49;
+}
+.form-control{
+    border: none;
+    background: #ff3b49;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    margin-bottom: 0;
+}
+button i{
+    margin-left: 10px;
+}
+
+button:hover{
+    background-color: #fd4551;
+}
+.SignUp{
+    width: 100%;
+    text-align: center;
+}
+.SignUp a{
+    color: #ff3b49;
+}
+.form-control:focus {
+    border-color: #ff3b49;
+    background-color: #ff3b49;
+    box-shadow: 0 0 0 0.2rem rgba(247, 38, 38, 0.25);
+} 
+
+
+@media (max-width: 870px){
+  .mainBody{
+    min-height: 100vh;
+  }
+}

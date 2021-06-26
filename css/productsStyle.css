@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cstm_productsHead{
+    font-size: 40px;
+    
+}
+
+button{
+    margin: 0 10px;
+}
+
+.modal .modal-body .cstm-file{
+    background-color: olivedrab;
+}
+.navbar-toggler span{
+    color: #000;
+}
+
+
+
+table{
+    text-align: center;
+    
+}
+
+.modal-body strong{
+    color: #fff;
+}
